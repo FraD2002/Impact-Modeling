@@ -1,0 +1,5 @@
+/quotes
+/trades
+/Output
+__pycache__/
+*.py[cod]

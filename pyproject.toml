@@ -1,0 +1,21 @@
+[tool.black]
+line-length = 120
+target-version = ["py313"]
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | __pycache__
+  | Data
+  | Input
+  | Output
+)/
+'''
+
+[tool.ruff]
+line-length = 120
+target-version = "py313"
+extend-exclude = ["Data", "Input", "Output"]
+
+[tool.ruff.lint]
+select = ["E9", "F63", "F7", "F82"]
